@@ -9,4 +9,6 @@ app.get('/', function(req, res) {
 
 const port = process.env.PORT || 4005 
 
+app.use('/', express.static(path.join(__dirname, '../index.html')))
+
 app.listen(port, () => {console.log(`Avengers! Assemble... on port ${port}.`)})
