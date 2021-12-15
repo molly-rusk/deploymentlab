@@ -1,5 +1,37 @@
 
 body{
     background-color: lightblue;
-    height: 100px;
+}
+header{
+    background-color: lightcoral;
+    height: 3vh;
+    font-size:xx-large;
+    font-family: monospace;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family:monospace;
+    font-size:large;
+}
+
+#puppy1{
+    height: 20vh;
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-color: black;
+}
+
+#puppy2{
+    height: 20vh;
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-color: black;
 }
